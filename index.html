@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Иванов Демьян</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="info">
+        <img src="avatar.jpg" alt="тут моя фотка" class="avatar"/>
+
+        <div class="info-text">
+          <h1>Иванов Демьян</h1>
+          <p>
+            Я являюсь преподавателем в школе дополнительного образования
+            <b>«KiberOne»</b>
+          </p>
+          <ul>
+            <li>Телефон: <a href="tel:89249168713">89249168713</a></li>
+            <li>
+              Электронная почта:
+              <a href="mailto:iv-dem@list.ru">iv-dem@list.ru</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card bg-yellow">
+        <h2>Мои увлечения</h2>
+        <ol class="list">
+          <li>Смотреть фильмы</li>
+          <li>Играть на гитаре</li>
+          <li>Готовить</li>
+          <li>Смотреть <a href="https://www.youtube.com">Youtube</a></li>
+        </ol>
+      </div>
+
+      <div class="card bg-green">
+        <h2>Учебные заведения</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Учреждение</th>
+              <th>Город</th>
+              <th>Годы обучения</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Детский сад "Золотой ключик"</td>
+              <td>Советская Гавань</td>
+              <td>2004 - 2008</td>
+            </tr>
+            <tr>
+              <td>Средняя школа №1</td>
+              <td>Советская Гавань</td>
+              <td>2008 - 2019</td>
+            </tr>
+            <tr>
+              <td>ДВГУПС</td>
+              <td>Хабаровск</td>
+              <td>2019 - 2023</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="card bg-red">
+        <h2>Любимые предметы в школе</h2>
+        <ol>
+          <li>История</li>
+          <li>Обществознание</li>
+          <li>Физика</li>
+        </ol>
+      </div>
+
+      <div class="contact">
+        <h2>Связаться со мной</h2>
+        <form action="/">
+          <div class="row">
+            <div class="form-group">
+              <label for="name">Ваше имя:</label>
+              <input type="text" id="name" placeholder="Введите ваше имя..." />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Ваш email:</label>
+              <input type="email" id="email" placeholder="Введите email..." />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="text">Вашe сообщение:</label>
+
+            <textarea id="text" rows="2" cols="15"></textarea>
+          </div>
+
+          <input class="btn" type="submit" value="Связаться!" />
+        </form>
+      </div>
+
+      <div class="position">
+        <div class="box"></div>
+      </div>
+    </div>
+
+    <div style="margin-bottom: 100px"></div>
+  </body>
+</html>
